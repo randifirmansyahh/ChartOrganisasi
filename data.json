@@ -1,0 +1,61 @@
+[{
+  "id": "rektor",
+  "text": "Eko Travada",
+  "title": "REKTOR UNIVERSITAS",
+  "width": "350",
+  "height": "100",
+  "dir": "horizontal",
+  "img": "user.jpg"
+}, {
+  "id": "wr1",
+  "text": "Usman",
+  "title": "WAKIL REKTOR 1",
+  "width": "350",
+  "height": "100",
+  "dir": "horizontal",
+  "img": "user.jpg"
+}, {
+  "id": "wr2",
+  "text": "Udin",
+  "title": "WAKIL REKTOR 2",
+  "width": "350",
+  "height": "100",
+  "dir": "horizontal",
+  "img": "user.jpg"
+}, {
+  "id": "kj1",
+  "text": "Asep",
+  "title": "KETUA JURUSAN 1",
+  "width": "350",
+  "height": "100",
+  "dir": "horizontal",
+  "img": "user.jpg"
+}, {
+  "id": "kj2",
+  "text": "Hasna",
+  "title": "KETUA JURUSAN 2",
+  "width": "350",
+  "height": "100",
+  "dir": "horizontal",
+  "img": "user.jpg"
+}, {
+  "id": "rektor-wk1",
+  "from": "rektor",
+  "to": "wr1",
+  "type": "line"
+}, {
+  "id": "rektor-wk2",
+  "from": "rektor",
+  "to": "wr2",
+  "type": "line"
+}, {
+  "id": "wr1-kj1",
+  "from": "wr1",
+  "to": "kj1",
+  "type": "line"
+}, {
+  "id": "wr1-kj2",
+  "from": "wr2",
+  "to": "kj2",
+  "type": "line"
+}]
